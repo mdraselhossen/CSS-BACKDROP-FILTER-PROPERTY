@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css backdrop filter tutorial</title>
+</head>
+<style type="text/css">
+	.continer{
+		width: 600px;
+		height: 400px;
+		border:2px solid red;
+		margin: 0 auto;
+		background: url("flower1.jpg") no-repeat;
+
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.inner{
+		width: 300px;
+		height: 250px;
+		border-radius: 10px;
+		color: white;
+		text-align: center;
+		font-size: 25px;
+		border: 2px solid  white;
+		/*backdrop-filter:blur(2px);
+		backdrop-filter: brightness(100%);
+		backdrop-filter: contrast(150%);
+		backdrop-filter: hue-rotate(150deg);
+		backdrop-filter: invert(100%);
+		backdrop-filter: sepia(100%);
+		backdrop-filter: saturate(10%);
+        backdrop-filter: none;*/
+		backdrop-filter: grayscale(100%);
+	}
+</style>
+<body>
+	<div class="continer">
+		<div class="inner">	
+			Learn programming bangla
+		</div>
+	</div>
+
+</body>
+</html>
